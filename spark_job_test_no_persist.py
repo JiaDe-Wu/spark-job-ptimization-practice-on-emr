@@ -163,10 +163,10 @@ if __name__ == '__main__':
   # COMMAND ----------
 
   # Read input files.
-  orig_path = 's3a://jiadedata/aquisition/'
+  orig_path = 's3a://......../aquisition/'
   orig_df = spark.read.option("delimiter", "|").option("encoding", "UTF-8").schema(orig_schema).csv(orig_path)
 
-  svcg_path= 's3a://jiadedata/performance/'
+  svcg_path= 's3a://......../performance/'
   svcg_df = spark.read.option("delimiter", "|").option("encoding", "UTF-8").schema(svcg_schema).csv(svcg_path)
 
   # COMMAND ----------
@@ -577,7 +577,7 @@ if __name__ == '__main__':
   # COMMAND ----------
 
   # Save final output file.
-  finalOut = "s3a://jiadedata/processed-all-persist-coalesce-20/"
+  finalOut = "s3a://......./....../"
   final.coalesce(20).write.option("delimiter", "|").option("header", "true").mode("overwrite").csv(finalOut)
 
   orig_df.unpersist()

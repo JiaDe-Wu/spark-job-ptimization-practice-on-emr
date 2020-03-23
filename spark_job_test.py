@@ -208,8 +208,8 @@ if __name__ == '__main__':
 
   
 
-  #orig_df.persist(StorageLevel.MEMORY_AND_DISK_SER)
-  #svcg_df.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  orig_df.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  svcg_df.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
 
   
@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
   
 
-  #svcg_dtls.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  svcg_dtls.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
 
   
@@ -325,7 +325,7 @@ if __name__ == '__main__':
 
   
 
-  #trm_rcd.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  trm_rcd.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
 
   
@@ -346,7 +346,7 @@ if __name__ == '__main__':
 
   
 
-  #pop_1.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pop_1.persist(StorageLevel.MEMORY_AND_DISK_SER)
   
 
   
@@ -367,7 +367,7 @@ if __name__ == '__main__':
 
   
 
-  #pop_2.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pop_2.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
 
   
@@ -388,7 +388,7 @@ if __name__ == '__main__':
 
   
 
-  #pop_3.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pop_3.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
   
 
@@ -410,7 +410,7 @@ if __name__ == '__main__':
 
   
 
-  #pop_4.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pop_4.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
   
 
@@ -432,7 +432,7 @@ if __name__ == '__main__':
 
   
 
-  #pop_6.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pop_6.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
   
 
@@ -475,7 +475,7 @@ if __name__ == '__main__':
 
   
 
-  #pd_180.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  pd_180.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
   
 
@@ -506,7 +506,7 @@ if __name__ == '__main__':
 
   
 
-  #mod_loan.persist(StorageLevel.MEMORY_AND_DISK_SER)
+  mod_loan.persist(StorageLevel.MEMORY_AND_DISK_SER)
   
 
   

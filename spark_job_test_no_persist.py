@@ -580,6 +580,11 @@ if __name__ == '__main__':
   finalOut = "s3a://......./....../"
   final.coalesce(20).write.option("delimiter", "|").option("header", "true").mode("overwrite").csv(finalOut)
 
+  # Save final output file（Parquet）.
+  # final.coalesce(10).write.option("delimiter", "|").option("header", "true").mode("overwrite").parquet(finalOut)
+
+  
+  
   orig_df.unpersist()
   svcg_df.unpersist()
   svcg_dtls.unpersist()

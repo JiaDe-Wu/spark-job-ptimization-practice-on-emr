@@ -46,7 +46,7 @@ def getFilesFromFreddieMac(payload, startY, endY):
         r = s.get(lin)
         z = ZipFile(BytesIO(r.content))
         z.extractall(local_path)
-        print('.’)
+        print('.')
 def main():
     print("Starting")
     start_year = '1999'
